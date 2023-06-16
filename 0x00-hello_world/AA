@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "input file"
-read file
-echo "#!/bin/bash">${file}
-chmod +x ${file}
+git add .
+git commit -m 'Hello C'
+git push
