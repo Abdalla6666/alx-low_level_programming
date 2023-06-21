@@ -5,7 +5,7 @@ int main(void)
  * is written by mbah
  * Return: 0
  */
-
+i
 {
 _putchar('_')
 _putchar('p')
