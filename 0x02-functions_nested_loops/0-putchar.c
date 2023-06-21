@@ -1,21 +1,19 @@
 #include "main.h"
-int main(void)
+
 /**
- * main - print _putchar
- * is written by mbah
- * Return: 0
+ * main - Print _putchar
+ * Return: Always 0
  */
-i
+
+int main(void)
 {
-_putchar('_')
-_putchar('p')
-_putchar
-_putchar('u')
-_putchar('t')
-_putchar('c')
-_putchar('h')
-_putchar('a')
-_putchar('r')
-_putchar('\n')
-return (0);
+	char str[] = "_putchar";
+	int d;
+
+	for (d = 0; d < 8; d++)
+		_putchar(str[d]);
+
+	_putchar('\n');
+
+	return (0);
 }
