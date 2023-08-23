@@ -1,7 +1,3 @@
-/*
- * File: 100-elf_header.c
- * Auth: Brennan D Baraban
- */
 
 #include <elf.h>
 #include <sys/types.h>
@@ -188,8 +184,9 @@ void print_osabi(unsigned char *e_ident)
 void print_abi(unsigned char *e_ident)
 {
 	printf("  ABI Version:                       %d\n",
-			e_ident[EI_ABIVERSION]);
+	       e_ident[EI_ABIVERSION]);
 }
+
 /**
  * print_type - Prints the type of an ELF header.
  * @e_type: The ELF type.
